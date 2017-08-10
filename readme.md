@@ -1,6 +1,6 @@
 Blob Finder
 -
-Usage:
+Usage
 -
 `python find_blob.py <input_file_name>`
 
@@ -8,7 +8,11 @@ FunctionalTests and UnitTests
 -
 `python test_find_blob.py [-v]`
 
-Algorithm:
+Requirements
+-
+`Python 3.6.2`
+
+Algorithm
 -
 
 ```
@@ -21,21 +25,21 @@ Algorithm:
 * after the loop, return the number of element in the clusters for each type that has the most elements
 ```
 
-Time complexity:
+Time complexity
  
 ```
 O(n * log n)  
 1*n for looping every node in the matrix + log n for finding adjacent nodes in stored clusters
 ```
 
-Space complexity:
+Space complexity
 
 ```
 O(2 * n) 
 1*n for storing the 2D matrix + 1*n for storing clusters
 ```
 
-Description:
+Description
 -
 ```
 Blob Detection
